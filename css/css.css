@@ -1,0 +1,106 @@
+body,div,p{
+    padding:0;
+    margin:0;
+    border:0;
+    font-family: "微软雅黑";
+}
+.head{
+    width:1366px;
+    height:200px;
+    background-image: url("../images/top.jpg");
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+.main_content{
+    width:1366px;
+    height:450px;
+    margin: 0 auto;
+    background: #fbfbfb;
+}
+.main_container{
+    width:600px;
+    height:250px;
+    margin: 0 auto;
+    padding:100px 200px;
+}
+.btninsert,.btnsign{
+    width:200px;
+    height:200px;
+    border-radius: 50% 50% 50% 50%;
+    background: #fdec00;
+    text-align: center;
+    float:left;
+}
+.btnsign{
+    margin-left:200px;
+}
+.main_container a:link,.main_container a:visited{
+    font-size:22px;
+    line-height: 200px;
+    font-weight:600;
+    color:#161113;
+    text-decoration: underline;
+}
+.main_container a:hover{
+    color:#ff9a1c;
+    text-decoration: none;
+}
+.footer{
+    width:1366px;
+    margin: 0 auto;
+    height:40px;
+    text-align:center;
+    line-height: 40px;
+    background: #384452;
+    color:#fff;
+}
+.table-bordered {
+    border: 1px solid #EBEBEB
+}
+
+.table-bordered > thead > tr > td, .table-bordered > thead > tr > th {
+    background-color: #F5F5F6
+}
+
+.table-bordered > tbody > tr > td, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > td, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > thead > tr > th {
+    border: 1px solid #e7e7e7
+}
+
+.table > thead > tr > th {
+    border-bottom: 1px solid #DDD
+}
+
+.table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {
+    border-top: 1px solid #e7eaec;
+    line-height: 1.42857;
+    padding: 8px;
+    vertical-align: middle
+}
+#div1{
+	height:0;
+}
+.state{
+    width:1366px;
+    margin:0 auto;
+    height:40px;
+    line-height: 40px;
+    background: #3a8fd2;
+    color:#fff;
+    font-size: 16px;
+}
+.select{
+    padding:100px 350px;
+}
+.signfont{
+    font-size: large;
+}
+.hasorder,.notorder{
+    padding:185px 400px;
+    background: #fbfbfb;
+}
+.edittb{
+    padding:50px 100px;
+}
+.state a:link,.state a:visited{
+    color:#ff9a1c;
+}
